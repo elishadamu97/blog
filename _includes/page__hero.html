@@ -47,7 +47,25 @@
       {% endif %}
     </div>
   {% else %}
-    <img src="{{ page.header.image | relative_url }}" alt="{{ image_description }}" class="page__hero-image">
+  <div class="image-container">
+    <div class="page__hero-image" style="background-image: url('{{ page.header.image | relative_url }}');">
+        <div class="text-overlay">
+            <div class="left-text">
+              <img class="overlay_image" src="{{ page.header.overlay | relative_url }}" alt="">
+            </div>
+            <div class="right-text">
+              <div class="right-logo_text">
+                <img class="" src="{{ page.header.logo | relative_url }}" alt="">
+                <h2 class="text-title">Floating Calculator</h2>
+              </div>
+              <p class="text-title_free">Free</p>
+              <h4 class="title-description">A Chrome Extension used for Calculation</h4>
+
+              <a href="https://chrome.google.com/webstore/detail/audate-voice-search/agmgoemhckhccgibmoigonndjhjllcoh"><img class="chrome-download" src="/assets/images/chrome-download.png" alt="chrome-download"></a>
+            </div>
+        </div>
+    </div>
+</div>
   {% endif %}
   {% if page.header.caption %}
     <span class="page__hero-caption">{{ page.header.caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>

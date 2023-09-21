@@ -1,0 +1,80 @@
+.col-big{
+   display: flex;
+}
+
+@media screen and (min-width: 1024px) {
+    .greedy-nav a.site-logo {
+        margin-left: 62px;
+        margin-right: 0.5rem;
+        width: 50px !important;
+        height: auto;
+    }
+} 
+/* Style the container */
+.image-container {
+    position: relative;
+    margin-bottom: 100px;
+}
+
+/* Style the image container */
+.page__hero-image {
+    background-size: cover; /* Adjust background image sizing as needed */
+    background-position: center;
+    min-height: 600px; /* Set a minimum height for the image container */
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/* Style the text overlay */
+.text-overlay {
+    display: flex;
+    flex-direction: row; /* Horizontal layout: left and right */
+    justify-content: space-between; /* Space between left and right */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Background for better readability */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.overlay_image{
+    margin-left: 100px;
+}
+/* Style for left text */
+.left-text {
+    flex: 1; /* Equal width for left and right texts */
+    margin-top: 50px;
+}
+
+/* Style for right text */
+.right-text {
+    flex: 2; /* Equal width for left and right texts */
+    margin-top: 200px;
+    margin-left: 200px;
+}
+.right-logo_text{
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+
+}
+.text-title{
+    margin-top: 0px;
+
+}
+.text-title_free {
+    margin-left: 132px;
+    margin-top: -43px;
+    position: absolute;
+}
+.title-description{
+    margin-left: -232px;
+}
+.chrome-download{
+    width: 250px;
+    height: auto;
+    margin-left: -431px;
+}
