@@ -79,19 +79,19 @@ author:
 
 footer:
   links:
-    - src: "/assets/images/Facebook.svg"
+    - src: "./assets/images/Facebook.svg"
       url: "https://facebook.com/justice.ogb"
 
-    - src: "/assets/images/Twitter Squared.svg"
+    - src: "./assets/images/Twitter Squared.svg"
       url: "https://twitter.com/justice_mode"
 
-    - src: "/assets/images/Instagram Old.svg"
+    - src: "./assets/images/Instagram Old.svg"
       url: "https://instagram.com/justice.ogbonna"
 
-    - src: "/assets/images/GitHub.svg"
+    - src: "./assets/images/GitHub.svg"
       url: "https://github.com/justiceo"
 
-    - src: "/assets/images/Mail.svg"
+    - src: "./assets/images/Mail.svg"
       url: "mailto:hello@justiceo.com"
 defaults:
   # _posts
