@@ -12,11 +12,18 @@
     
 } 
 @media screen and (max-width: 600px) {
+  .page__hero-image {
+    background-size: cover; /* Adjust background image sizing as needed */
+    background-position: center;
+    min-height: 630px !important;  /* Set a minimum height for the image container */
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
   .features {
     display: flex !important;
     flex-direction: column !important;
     column-gap: 20px !important;
-    margin-top: 400px;
+    margin-top: 430px;
   }
   .text-overlay {
     display: flex !important;
@@ -25,7 +32,7 @@
 .overlay_image{
   position: absolute;
   margin-left: -185px !important;
-  margin-top: -40px;
+  margin-top: -10px;
 }
 .right-text {
   margin-top: 58px !important;
@@ -59,6 +66,9 @@
   width: 300px !important ;
   height: auto;
   margin-left: -20px !important;
+}
+.page__footer-follow ul {
+  margin-left: -15px !important;
 }
 } 
 /* Style the container */
